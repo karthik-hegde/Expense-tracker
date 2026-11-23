@@ -6,13 +6,13 @@ A modern, privacy-first Android application for automated expense and income tra
 
 ## 📱 App Screenshots & Visual Feature Showcase
 
-| 💳 1. Expense Tracker & Exclusions | 💰 2. Income Tracker Mode | 📊 3. Net Financial Analytics |
+| 💳 1. Expense Tracker Mode & Exclusions | 💰 2. Income Tracker Mode | 📊 3. Net Financial Analytics |
 | :---: | :---: | :---: |
-| <img src="docs/screenshots/expense_screen.png" width="280" alt="Expense Tracker Screen"/> | <img src="docs/screenshots/income_screen.png" width="280" alt="Income Tracker Screen"/> | <img src="docs/screenshots/net_report.png" width="280" alt="Net Financial Analytics Screen"/> |
+| ![Expense Tracker Screen](docs/screenshots/expense_screen.png) | ![Income Tracker Screen](docs/screenshots/income_screen.png) | ![Net Financial Analytics Screen](docs/screenshots/net_report.png) |
 
 | 🥧 4. Monthly Category Breakdown | 🔍 5. Item Details & Re-Categorization | ⚙️ 6. Settings & Full Year Scan |
 | :---: | :---: | :---: |
-| <img src="docs/screenshots/monthly_chart.png" width="280" alt="Monthly Pie Chart Screen"/> | <img src="docs/screenshots/item_details_dialog.png" width="280" alt="Item Details Dialog"/> | <img src="docs/screenshots/settings_screen.png" width="280" alt="Settings & Full Year Scan Screen"/> |
+| ![Monthly Pie Chart Screen](docs/screenshots/monthly_chart.png) | ![Item Details Dialog](docs/screenshots/item_details_dialog.png) | ![Settings & Full Year Scan Screen](docs/screenshots/settings_screen.png) |
 
 ---
 
@@ -71,7 +71,7 @@ graph TD
 * **Asynchronous Flow:** Kotlin Coroutines & `StateFlow` offloaded with `.flowOn(Dispatchers.Default)` for 60 FPS scrolling performance.
 * **Data Processing:** Regular Expression SMS parsers (`SmsExpenseParser` & `SmsIncomeParser`) with hash-set deduplication.
 * **Persistence:** Local JSON file repository with concurrency protection.
-* **Testing:** Comprehensive unit testing suite covering persistence, SMS parsing, duplicate detection, and repository re-filtering (53/53 tests passing).
+* **Testing:** Comprehensive unit testing suite covering persistence, SMS parsing, duplicate detection, and repository re-filtering (54/54 tests passing).
 
 ---
 
@@ -102,7 +102,7 @@ personal_expenses/
 │   │   │   │   │   └── SettingsScreen.kt
 │   │   │   │   └── MainActivity.kt
 │   │   │   └── res/                      # Vector Drawables, Adaptive App Icon & Resources
-│   │   └── test/                         # Unit Tests (53/53 Passing)
+│   │   └── test/                         # Unit Tests (54/54 Passing)
 │   │       └── java/com/example/expensetracker/
 │   └── build.gradle.kts
 ├── build.gradle.kts
