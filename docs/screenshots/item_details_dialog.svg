@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 780" width="380" height="780" style="background:#0F172A; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+  <!-- Device Phone Outer Border -->
+  <rect x="5" y="5" width="370" height="770" rx="36" fill="#1E293B" stroke="#334155" stroke-width="3"/>
+  <rect x="12" y="12" width="356" height="756" rx="30" fill="#F8FAFC"/>
+
+  <!-- Dimmed Main Screen Background behind Dialog -->
+  <rect x="12" y="12" width="356" height="756" rx="30" fill="#0F172A" fill-opacity="0.55"/>
+
+  <!-- Centered Item Details AlertDialog Card -->
+  <g transform="translate(28, 120)">
+    <rect x="0" y="0" width="324" height="520" rx="24" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+
+    <!-- Dialog Header -->
+    <circle cx="36" cy="36" r="20" fill="#FEF3C7"/>
+    <text x="27" y="42" font-size="18">🍔</text>
+    <text x="68" y="42" font-size="18" font-weight="700" fill="#0F172A">Expense Details</text>
+
+    <!-- Divider -->
+    <line x1="20" y1="70" x2="304" y2="70" stroke="#F1F5F9" stroke-width="1"/>
+
+    <!-- Amount & Remark -->
+    <text x="20" y="100" font-size="24" font-weight="800" fill="#2563EB">-₹4,850.00</text>
+    <text x="20" y="122" font-size="14" font-weight="600" fill="#0F172A">Swiggy Gourmet Order</text>
+
+    <!-- Metadata Section -->
+    <rect x="20" y="136" width="136" height="42" rx="8" fill="#F8FAFC"/>
+    <text x="30" y="152" font-size="10" font-weight="500" fill="#64748B">Source</text>
+    <text x="30" y="168" font-size="12" font-weight="700" fill="#0F172A">UPI (Kotak)</text>
+
+    <rect x="168" y="136" width="136" height="42" rx="8" fill="#F8FAFC"/>
+    <text x="178" y="152" font-size="10" font-weight="500" fill="#64748B">Date</text>
+    <text x="178" y="168" font-size="12" font-weight="700" fill="#0F172A">24 Nov 2026</text>
+
+    <!-- Source SMS Section -->
+    <text x="20" y="202" font-size="11" font-weight="700" fill="#334155">Original Bank SMS</text>
+    <rect x="20" y="210" width="284" height="54" rx="8" fill="#F1F5F9"/>
+    <text x="28" y="228" font-size="10" font-weight="400" fill="#475569">Sent Rs.4850.00 from Kotak Bank A/c X8272</text>
+    <text x="28" y="242" font-size="10" font-weight="400" fill="#475569">to SWIGGY on 24-11-26. UPI Ref 080014864877.</text>
+
+    <!-- Exact Exclusion Reason Box -->
+    <text x="20" y="286" font-size="11" font-weight="700" fill="#DC2626">Exclusion Reason</text>
+    <rect x="20" y="294" width="284" height="38" rx="8" fill="#FEF2F2" stroke="#FCA5A5" stroke-width="1"/>
+    <text x="28" y="318" font-size="11" font-weight="600" fill="#991B1B">🚫 Matches exclusion filter: "Swiggy"</text>
+
+    <!-- Category Customization Chips Section -->
+    <text x="20" y="354" font-size="12" font-weight="700" fill="#0F172A">Category</text>
+    <text x="20" y="370" font-size="10" font-weight="500" fill="#64748B">Tap a category below to change:</text>
+
+    <!-- Category Chips -->
+    <rect x="20" y="380" width="120" height="30" rx="8" fill="#FEF3C7" stroke="#2563EB" stroke-width="1.5"/>
+    <text x="28" y="400" font-size="12">🍔</text>
+    <text x="46" y="400" font-size="11" font-weight="700" fill="#0F172A">Food &amp; Dining</text>
+
+    <rect x="146" y="380" width="94" height="30" rx="8" fill="#F1F5F9"/>
+    <text x="154" y="400" font-size="12">🛍️</text>
+    <text x="172" y="400" font-size="11" font-weight="500" fill="#334155">Shopping</text>
+
+    <rect x="20" y="416" width="98" height="30" rx="8" fill="#F1F5F9"/>
+    <text x="28" y="436" font-size="12">🚗</text>
+    <text x="46" y="436" font-size="11" font-weight="500" fill="#334155">Transport</text>
+
+    <rect x="124" y="416" width="76" height="30" rx="8" fill="#F1F5F9"/>
+    <text x="132" y="436" font-size="12">💡</text>
+    <text x="150" y="436" font-size="11" font-weight="500" fill="#334155">Bills</text>
+
+    <!-- Dialog Action Buttons -->
+    <line x1="20" y1="464" x2="304" y2="464" stroke="#F1F5F9" stroke-width="1"/>
+    <rect x="188" y="474" width="116" height="36" rx="8" fill="#2563EB"/>
+    <text x="208" y="496" font-size="11" font-weight="700" fill="#FFFFFF">Save Category</text>
+  </g>
+</svg>

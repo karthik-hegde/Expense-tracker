@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Soft Drop Shadow -->
+    <path
+        android:fillColor="#30000000"
+        android:pathData="M27,42h52c4.4,0 8,3.6 8,8v26c0,4.4 -3.6,8 -8,8H27c-4.4,0 -8,-3.6 -8,-8V50c0,-4.4 3.6,-8 8,-8z" />
+
+    <!-- Back Card (Income / Credit - Emerald Green) -->
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M33,29h40c4.4,0 8,3.6 8,8v26c0,4.4 -3.6,8 -8,8H33c-4.4,0 -8,-3.6 -8,-8V37c0,-4.4 3.6,-8 8,-8z" />
+
+    <!-- Back Card Top Highlight -->
+    <path
+        android:fillColor="#34D399"
+        android:pathData="M25,37c0,-4.4 3.6,-8 8,-8h40c4.4,0 8,3.6 8,8v4H25v-4z" />
+
+    <!-- Front Card (Main Wallet / Expenses - Crisp White) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M26,39h50c4.4,0 8,3.6 8,8v26c0,4.4 -3.6,8 -8,8H26c-4.4,0 -8,-3.6 -8,-8V47c0,-4.4 3.6,-8 8,-8z" />
+
+    <!-- Wallet Clasp Flap (Midnight Slate) -->
+    <path
+        android:fillColor="#1E293B"
+        android:pathData="M64,50h18c2.2,0 4,1.8 4,4v8c0,2.2 -1.8,4 -4,4H64V50z" />
+
+    <!-- Gold Latch Dot -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M73,58m-3.5,0a3.5,3.5 0 1,0 7,0a3.5,3.5 0 1,0 -7,0" />
+
+    <!-- Financial Flow Indicators (Currency Agnostic) -->
+    <!-- Income Bar (Green) -->
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M31,48h22c1.1,0 2,0.9 2,2v0c0,1.1 -0.9,2 -2,2H31c-1.1,0 -2,-0.9 -2,-2v0c0,-1.1 0.9,-2 2,-2z" />
+
+    <!-- Expense Bar (Coral Red) -->
+    <path
+        android:fillColor="#F43F5E"
+        android:pathData="M31,56h14c1.1,0 2,0.9 2,2v0c0,1.1 -0.9,2 -2,2H31c-1.1,0 -2,-0.9 -2,-2v0c0,-1.1 0.9,-2 2,-2z" />
+
+    <!-- Net Savings Bar (Sky Blue) -->
+    <path
+        android:fillColor="#0EA5E9"
+        android:pathData="M31,64h26c1.1,0 2,0.9 2,2v0c0,1.1 -0.9,2 -2,2H31c-1.1,0 -2,-0.9 -2,-2v0c0,-1.1 0.9,-2 2,-2z" />
+
+</vector>

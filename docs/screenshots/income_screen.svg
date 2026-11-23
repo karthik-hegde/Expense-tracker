@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 780" width="380" height="780" style="background:#0F172A; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+  <!-- Device Phone Outer Border -->
+  <rect x="5" y="5" width="370" height="770" rx="36" fill="#1E293B" stroke="#334155" stroke-width="3"/>
+  <rect x="12" y="12" width="356" height="756" rx="30" fill="#F8FAFC"/>
+
+  <!-- Status Bar / Top Notch -->
+  <rect x="140" y="18" width="100" height="18" rx="9" fill="#0F172A"/>
+  <text x="32" y="32" font-size="11" font-weight="600" fill="#334155">9:41</text>
+
+  <!-- Top App Bar -->
+  <g transform="translate(24, 48)">
+    <text x="0" y="18" font-size="20" font-weight="700" fill="#166534">Income Tracker</text>
+    <text x="0" y="32" font-size="11" font-weight="500" fill="#64748B">Monthly Income &amp; Earnings Manager</text>
+    <!-- Analytics Icon Button -->
+    <circle cx="316" cy="18" r="16" fill="#F1F5F9"/>
+    <path d="M312,12 A6,6 0 0,1 318,18 H312 Z" fill="#2E7D32"/>
+    <path d="M310,18 A8,8 0 1,1 318,26 L318,18 Z" fill="#4ADE80"/>
+  </g>
+
+  <!-- Month Navigator Banner -->
+  <g transform="translate(24, 94)">
+    <rect x="0" y="0" width="332" height="36" rx="10" fill="#F1F5F9"/>
+    <text x="14" y="22" font-size="14" font-weight="700" fill="#166534">‹</text>
+    <text x="110" y="22" font-size="13" font-weight="700" fill="#0F172A">November 2026</text>
+    <text x="310" y="22" font-size="14" font-weight="700" fill="#166534">›</text>
+  </g>
+
+  <!-- Monthly Income Summary Card -->
+  <g transform="translate(24, 138)">
+    <rect x="0" y="0" width="332" height="136" rx="16" fill="#DCFCE7"/>
+    <text x="16" y="26" font-size="12" font-weight="600" fill="#166534">Total Income (November 2026)</text>
+
+    <!-- Entries Badge -->
+    <rect x="250" y="12" width="66" height="20" rx="8" fill="#166534" fill-opacity="0.12"/>
+    <text x="262" y="26" font-size="11" font-weight="600" fill="#166534">3 entries</text>
+
+    <!-- Main Income Amount -->
+    <text x="16" y="62" font-size="28" font-weight="800" fill="#14532D">+₹85,000.00</text>
+
+    <!-- Net Savings Badge -->
+    <rect x="200" y="42" width="116" height="24" rx="8" fill="#FFFFFF" fill-opacity="0.9" stroke="#86EFAC" stroke-width="1"/>
+    <text x="210" y="58" font-size="11" font-weight="700" fill="#15803D">Net: +₹70,150.00</text>
+
+    <!-- Category Pills Carousel -->
+    <rect x="16" y="88" width="144" height="32" rx="8" fill="#FFFFFF" fill-opacity="0.9"/>
+    <text x="24" y="108" font-size="13">💼</text>
+    <text x="42" y="108" font-size="11" font-weight="600" fill="#0F172A">Salary</text>
+    <text x="94" y="108" font-size="11" font-weight="700" fill="#166534">₹75,000</text>
+
+    <rect x="168" y="88" width="148" height="32" rx="8" fill="#FFFFFF" fill-opacity="0.9"/>
+    <text x="176" y="108" font-size="13">💻</text>
+    <text x="194" y="108" font-size="11" font-weight="600" fill="#0F172A">Freelance</text>
+    <text x="256" y="108" font-size="11" font-weight="700" fill="#166534">₹10,000</text>
+  </g>
+
+  <!-- Filter & Sort Bar -->
+  <g transform="translate(24, 286)">
+    <rect x="0" y="0" width="130" height="32" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+    <text x="12" y="20" font-size="11" font-weight="600" fill="#334155">≡ Sort: Latest Date</text>
+
+    <rect x="138" y="0" width="42" height="32" rx="10" fill="#14532D"/>
+    <text x="152" y="20" font-size="11" font-weight="600" fill="#FFFFFF">All</text>
+
+    <rect x="188" y="0" width="100" height="32" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+    <text x="198" y="20" font-size="11" font-weight="600" fill="#334155">💼 Salary</text>
+  </g>
+
+  <!-- Active Income Transactions List -->
+  <!-- Income Item 1 -->
+  <g transform="translate(24, 330)">
+    <rect x="0" y="0" width="332" height="64" rx="12" fill="#F1F5F9"/>
+    <circle cx="28" cy="32" r="20" fill="#DCFCE7"/>
+    <text x="20" y="37" font-size="16">💼</text>
+    <text x="56" y="26" font-size="13" font-weight="700" fill="#0F172A">TECH CORP PVT LTD - Salary</text>
+    <text x="56" y="44" font-size="11" font-weight="500" fill="#64748B">Bank • Nov 30, 2026</text>
+    <text x="216" y="36" font-size="13" font-weight="700" fill="#166534">+₹75,000.00</text>
+    <path d="M304,26 h12 m-8,0 v10 m4,-10 v10 m-7,-12 h10" stroke="#94A3B8" stroke-width="1.5" fill="none"/>
+  </g>
+
+  <!-- Income Item 2 -->
+  <g transform="translate(24, 402)">
+    <rect x="0" y="0" width="332" height="64" rx="12" fill="#F1F5F9"/>
+    <circle cx="28" cy="32" r="20" fill="#E0F2FE"/>
+    <text x="20" y="37" font-size="16">💻</text>
+    <text x="56" y="26" font-size="13" font-weight="700" fill="#0F172A">FREELANCE CLIENT - Design</text>
+    <text x="56" y="44" font-size="11" font-weight="500" fill="#64748B">UPI • Nov 28, 2026</text>
+    <text x="216" y="36" font-size="13" font-weight="700" fill="#166534">+₹10,000.00</text>
+    <path d="M304,26 h12 m-8,0 v10 m4,-10 v10 m-7,-12 h10" stroke="#94A3B8" stroke-width="1.5" fill="none"/>
+  </g>
+
+  <!-- Section Header: Deleted Income Entries -->
+  <text x="24" y="492" font-size="12" font-weight="700" fill="#475569">Deleted Income Entries &amp; Exclusions (1)</text>
+
+  <!-- Excluded Income Item (Dividend) -->
+  <g transform="translate(24, 504)">
+    <rect x="0" y="0" width="332" height="72" rx="12" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+    <circle cx="28" cy="36" r="20" fill="#FEF3C7"/>
+    <text x="20" y="41" font-size="16">📈</text>
+    <text x="56" y="24" font-size="13" font-weight="600" fill="#64748B" text-decoration="line-through">ZERODHA BROKING LTD</text>
+    <text x="56" y="40" font-size="11" font-weight="500" fill="#94A3B8">Bank • Nov 25, 2026</text>
+
+    <!-- Exact Filter Reason Highlight Tag -->
+    <text x="56" y="58" font-size="10" font-weight="600" fill="#DC2626">🚫 Matches exclusion filter: "Dividend"</text>
+
+    <text x="216" y="28" font-size="12" font-weight="600" fill="#94A3B8" text-decoration="line-through">+₹3,450.00</text>
+    <!-- Restore Button -->
+    <rect x="264" y="38" width="58" height="24" rx="6" fill="#FFFFFF" stroke="#166534" stroke-width="1"/>
+    <text x="272" y="54" font-size="10" font-weight="700" fill="#166534">Restore</text>
+  </g>
+
+  <!-- Bottom Navigation Bar Placeholder -->
+  <g transform="translate(24, 680)">
+    <rect x="0" y="0" width="332" height="52" rx="16" fill="#1E293B"/>
+    <text x="42" y="32" font-size="12" font-weight="700" fill="#4ADE80">💳 Tracker</text>
+    <text x="142" y="32" font-size="12" font-weight="600" fill="#94A3B8">📊 Analytics</text>
+    <text x="242" y="32" font-size="12" font-weight="600" fill="#94A3B8">⚙️ Settings</text>
+  </g>
+
+</svg>

@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 780" width="380" height="780" style="background:#0F172A; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+  <!-- Device Phone Outer Border -->
+  <rect x="5" y="5" width="370" height="770" rx="36" fill="#1E293B" stroke="#334155" stroke-width="3"/>
+  <rect x="12" y="12" width="356" height="756" rx="30" fill="#F8FAFC"/>
+
+  <!-- Status Bar / Top Notch -->
+  <rect x="140" y="18" width="100" height="18" rx="9" fill="#0F172A"/>
+  <text x="32" y="32" font-size="11" font-weight="600" fill="#334155">9:41</text>
+
+  <!-- Top App Bar -->
+  <g transform="translate(24, 48)">
+    <text x="0" y="18" font-size="18" font-weight="700" fill="#2563EB">←</text>
+    <text x="24" y="18" font-size="18" font-weight="700" fill="#0F172A">Settings</text>
+  </g>
+
+  <!-- Section 1: Categories & SMS Tags -->
+  <g transform="translate(24, 90)">
+    <rect x="0" y="0" width="332" height="60" rx="14" fill="#F1F5F9"/>
+    <circle cx="28" cy="30" r="18" fill="#E2E8F0"/>
+    <text x="20" y="35" font-size="16">🏷️</text>
+    <text x="56" y="24" font-size="13" font-weight="700" fill="#0F172A">Categories &amp; SMS Tags</text>
+    <text x="56" y="40" font-size="10" font-weight="500" fill="#64748B">9 categories configured</text>
+    <text x="304" y="34" font-size="14" font-weight="700" fill="#64748B">∨</text>
+  </g>
+
+  <!-- Section 2: Custom Card Names -->
+  <g transform="translate(24, 158)">
+    <rect x="0" y="0" width="332" height="60" rx="14" fill="#F1F5F9"/>
+    <circle cx="28" cy="30" r="18" fill="#E2E8F0"/>
+    <text x="20" y="35" font-size="16">💳</text>
+    <text x="56" y="24" font-size="13" font-weight="700" fill="#0F172A">Custom Card Names</text>
+    <text x="56" y="40" font-size="10" font-weight="500" fill="#64748B">e.g. 7224 → Regalia Card</text>
+    <text x="304" y="34" font-size="14" font-weight="700" fill="#64748B">∨</text>
+  </g>
+
+  <!-- Section 3: Excluded SMS Keywords -->
+  <g transform="translate(24, 226)">
+    <rect x="0" y="0" width="332" height="96" rx="14" fill="#F1F5F9"/>
+    <text x="16" y="24" font-size="13" font-weight="700" fill="#0F172A">Excluded SMS Keywords (2)</text>
+    <text x="16" y="40" font-size="10" font-weight="500" fill="#64748B">SMS matching these keywords will be moved to exclusions.</text>
+
+    <!-- Keyword Chips -->
+    <rect x="16" y="52" width="104" height="26" rx="8" fill="#D1E3FF"/>
+    <text x="24" y="68" font-size="11" font-weight="600" fill="#1E3A8A">House Rent ✖</text>
+
+    <rect x="128" y="52" width="56" height="26" rx="8" fill="#D1E3FF"/>
+    <text x="136" y="68" font-size="11" font-weight="600" fill="#1E3A8A">SIP ✖</text>
+  </g>
+
+  <!-- Section 4: Data Export & Import -->
+  <g transform="translate(24, 330)">
+    <rect x="0" y="0" width="332" height="60" rx="14" fill="#F1F5F9"/>
+    <circle cx="28" cy="30" r="18" fill="#E2E8F0"/>
+    <text x="20" y="35" font-size="16">📁</text>
+    <text x="56" y="24" font-size="13" font-weight="700" fill="#0F172A">Data Export &amp; Import</text>
+    <text x="56" y="40" font-size="10" font-weight="500" fill="#64748B">JSON backup export &amp; import</text>
+    <text x="304" y="34" font-size="14" font-weight="700" fill="#64748B">∨</text>
+  </g>
+
+  <!-- Section 5: Full Year SMS Rescan (Highlighted Card) -->
+  <g transform="translate(24, 398)">
+    <rect x="0" y="0" width="332" height="240" rx="16" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1.5"/>
+
+    <!-- Section Header -->
+    <circle cx="34" cy="36" r="18" fill="#DBEAFE"/>
+    <text x="26" y="42" font-size="16">📅</text>
+
+    <text x="62" y="32" font-size="14" font-weight="700" fill="#1E3A8A">Full Year SMS Scan (2026)</text>
+    <text x="62" y="48" font-size="10" font-weight="500" fill="#3B82F6">Scan all banking SMS messages for 2026</text>
+
+    <text x="16" y="80" font-size="11" font-weight="400" fill="#475569">Scan all bank and credit card SMS messages for the entire year 2026 (Jan 1 – Dec 31) for both expenses and income entries. New transactions will be automatically imported.</text>
+
+    <!-- Action Button Card -->
+    <rect x="16" y="132" width="300" height="90" rx="12" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+
+    <circle cx="42" cy="177" r="18" fill="#DBEAFE"/>
+    <text x="34" y="182" font-size="16">🔄</text>
+
+    <text x="70" y="168" font-size="13" font-weight="700" fill="#0F172A">Scan Entire 2026</text>
+    <text x="70" y="184" font-size="10" font-weight="500" fill="#64748B">Processes Jan–Dec SMS messages</text>
+
+    <!-- Prominent Action Button -->
+    <rect x="200" y="157" width="104" height="38" rx="10" fill="#2563EB"/>
+    <text x="214" y="180" font-size="11" font-weight="700" fill="#FFFFFF">Scan 2026</text>
+  </g>
+
+  <!-- Bottom Navigation Bar Placeholder -->
+  <g transform="translate(24, 680)">
+    <rect x="0" y="0" width="332" height="52" rx="16" fill="#1E293B"/>
+    <text x="42" y="32" font-size="12" font-weight="600" fill="#94A3B8">💳 Tracker</text>
+    <text x="142" y="32" font-size="12" font-weight="600" fill="#94A3B8">📊 Analytics</text>
+    <text x="242" y="32" font-size="12" font-weight="700" fill="#38BDF8">⚙️ Settings</text>
+  </g>
+
+</svg>
