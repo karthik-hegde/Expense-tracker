@@ -4,6 +4,19 @@ A modern, privacy-first Android application for automated expense and income tra
 
 ---
 
+## 📥 **Direct APK Download & Installation**
+
+Anyone can download and install the app directly on their Android phone without needing to compile from source!
+
+### **[👉 Click Here to Download APK (`releases/PersonalExpenses-v1.0.apk`)](releases/PersonalExpenses-v1.0.apk)**
+
+#### 📲 **How to Install on Your Android Phone:**
+1. **Download:** Click the download link above or open `releases/PersonalExpenses-v1.0.apk` on your phone.
+2. **Install:** Tap the downloaded `.apk` file to install. If prompted by Android, tap *"Allow from this source"* for your browser or file manager.
+3. **Permissions:** Open the app and grant **SMS permission** when prompted so it can automatically detect and categorize your banking messages.
+
+---
+
 ## 📱 App Screenshots & Visual Feature Showcase
 
 | 💳 1. Expense Tracker Mode & Exclusions | 💰 2. Income Tracker Mode | 📊 3. Net Financial Analytics |
@@ -106,6 +119,8 @@ personal_expenses/
 │   │       └── java/com/example/expensetracker/
 │   └── build.gradle.kts
 ├── build.gradle.kts
+├── releases/
+│   └── PersonalExpenses-v1.0.apk
 └── README.md
 ```
 

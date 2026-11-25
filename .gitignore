@@ -11,4 +11,5 @@
 local.properties
 .artifacts/
 *.apk
+!releases/*.apk
 *.aar
